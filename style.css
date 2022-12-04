@@ -1,0 +1,86 @@
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background:steelblue;
+    text-align: center;
+    height: max-content;
+    padding: 1em;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50%;
+}
+
+article {
+    flex: 1;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 1em;
+    height: 80vh;
+}
+
+article:nth-child(2) {
+    flex: 2;
+}
+
+h2{
+    text-align: center;
+    height: max-content;
+    padding: 1em;
+    font-size: 20px;
+}
+
+.primerTablero {
+    
+    height: 45vh;
+    gap: 5px;
+    padding: 1%;
+    
+}
+
+.contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    place-items: center;
+    height: 50vh;
+}
+
+.cuadrados {
+    border: solid 1px black;
+    height: 90%;
+    width: 25%;
+    background-color: paleturquoise;
+}
+
+.segundoTablero {
+    
+    height: 45vh;
+    gap: 5px;
+    padding: 1%;
+}
+
+.contenido2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+
+.cuadrados2 {
+    height: 90%;
+    width: 25%;
+    background-color: goldenrod;
+    margin: 5px;
+}
